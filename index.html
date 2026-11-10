@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#f7f3ee">
+<title>SAATHI — A little space for you</title>
+<style>
+:root{--ink:#302d2a;--muted:#716a63;--cream:#f7f3ee;--paper:#fffdfa;--rose:#d98779;--rose-dark:#a9574c;--sage:#dfe8dc;--line:#e9e1d8;--plum:#68516b}
+*{box-sizing:border-box}body{margin:0;background:var(--cream);color:var(--ink);font:16px/1.55 Inter,ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif}a{color:inherit}button{font:inherit;cursor:pointer}.wrap{width:min(1100px,92%);margin:auto}.top{display:flex;align-items:center;justify-content:space-between;padding:20px 0}.brand{font-size:1.35rem;letter-spacing:.18em;font-weight:750}.brand small{display:block;font-size:.62rem;letter-spacing:.12em;color:var(--muted);font-weight:500}.nav{display:flex;gap:22px;align-items:center}.nav a{text-decoration:none;color:var(--muted);font-size:.92rem}.nav a:hover{color:var(--rose-dark)}.hero{display:grid;grid-template-columns:1.15fr .85fr;gap:40px;align-items:center;padding:60px 0 52px}.eyebrow{color:var(--rose-dark);font-size:.78rem;letter-spacing:.14em;text-transform:uppercase;font-weight:700}.hero h1{font-family:Georgia,serif;font-weight:500;font-size:clamp(2.7rem,6vw,4.7rem);line-height:1.06;letter-spacing:-.035em;margin:14px 0 20px}.hero p{font-size:1.1rem;color:var(--muted);max-width:590px}.actions{display:flex;gap:12px;flex-wrap:wrap;margin:26px 0 16px}.btn{border:0;border-radius:999px;padding:13px 22px;background:var(--rose-dark);color:white;font-weight:650}.btn.secondary{background:transparent;color:var(--ink);border:1px solid #cfc4b9}.btn:hover{filter:brightness(.96);transform:translateY(-1px)}.privacy{font-size:.85rem;color:var(--muted)}.hero-art{min-height:340px;border-radius:48% 48% 22px 22px;background:linear-gradient(145deg,#e8d7cd,#e5e9dc);display:grid;place-items:center;position:relative;overflow:hidden}.sun{width:190px;height:190px;border-radius:50%;background:#f6e6c9;position:absolute;top:42px;right:50px}.plant{position:absolute;bottom:-22px;left:50%;transform:translateX(-50%);width:230px;height:240px;border-radius:48% 48% 0 0;background:#a9b8a0;opacity:.8}.quote{position:relative;z-index:1;background:#fffdf8e8;padding:24px 26px;border-radius:18px;max-width:270px;box-shadow:0 12px 35px #57483b18;font-family:Georgia,serif;font-size:1.4rem;line-height:1.35;text-align:center}.section{padding:48px 0}.section h2{font:500 clamp(2rem,4vw,3rem)/1.15 Georgia,serif;margin:8px 0 12px}.lead{color:var(--muted);max-width:650px}.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:25px}.card{background:var(--paper);border:1px solid var(--line);border-radius:20px;padding:22px;min-height:190px}.card .emoji{font-size:1.8rem}.card h3{margin:10px 0 6px;font-size:1.1rem}.card p{margin:0;color:var(--muted);font-size:.94rem}.card button,.resource button{margin-top:16px;border:0;background:none;color:var(--rose-dark);font-weight:700;padding:0}.soft{background:#edf0e8;border-radius:28px;padding:36px}.path{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:22px}.step{padding:20px;background:#ffffffb8;border-radius:18px}.step b{display:block;margin-bottom:6px}.library{display:grid;grid-template-columns:repeat(2,1fr);gap:14px;margin-top:22px}.resource{display:flex;gap:16px;align-items:flex-start;background:var(--paper);border:1px solid var(--line);border-radius:18px;padding:18px}.resource .emoji{font-size:1.6rem}.resource h3{margin:0 0 4px;font-size:1rem}.resource p{margin:0;color:var(--muted);font-size:.9rem}.resource button{margin-top:8px}.panel{display:none;background:var(--paper);border:1px solid var(--line);border-radius:22px;padding:26px;margin-top:22px}.panel.active{display:block}.panel h3{font:500 1.7rem Georgia,serif;margin-top:0}.choices{display:flex;flex-wrap:wrap;gap:10px;margin:18px 0}.choice{border:1px solid var(--line);border-radius:999px;padding:10px 15px;background:white}.choice.selected{background:var(--sage);border-color:#a6b79e}.note{color:var(--muted);font-size:.88rem}.footer{padding:35px 0 48px;border-top:1px solid var(--line);color:var(--muted);font-size:.88rem}.footer strong{color:var(--ink)}.hidden{display:none!important}
+@media(max-width:760px){.nav{gap:12px}.nav a{font-size:.82rem}.hero{grid-template-columns:1fr;padding:36px 0}.hero-art{min-height:260px}.cards,.path{grid-template-columns:1fr}.library{grid-template-columns:1fr}.soft{padding:24px}.top{align-items:flex-start}.brand small{max-width:140px}.nav a:nth-child(3){display:none}}
+</style>
+</head>
+<body>
+<header class="wrap top">
+  <a class="brand" href="#" style="text-decoration:none">SAATHI<small>A space that starts with you</small></a>
+  <nav class="nav"><a href="#explore">Explore</a><a href="#support">Find support</a><a href="#about">About</a></nav>
+</header>
+<main>
+<section class="wrap hero">
+  <div>
+    <div class="eyebrow">A little space for you</div>
+    <h1>You look after everyone. This space is for you, too.</h1>
+    <p>Come as you are. Take a breath, find something that helps, or talk through what is weighing on you. You do not have to explain everything at once.</p>
+    <div class="actions"><a class="btn" href="#explore" style="text-decoration:none">Explore what feels right</a><a class="btn secondary" href="#support" style="text-decoration:none">I’d like some support</a></div>
+    <div class="privacy">No sign-up to begin. Explore first. You choose if and when to take the next step.</div>
+  </div>
+  <div class="hero-art" aria-label="A calm, welcoming illustration">
+    <div class="sun"></div><div class="plant"></div><div class="quote">“You deserve care, even when nothing is wrong.”</div>
+  </div>
+</section>
+<section class="wrap section" id="explore">
+  <div class="eyebrow">Start anywhere</div><h2>There is no right way to arrive here.</h2>
+  <p class="lead">Maybe you want a quiet moment. Maybe something has been on your mind. You can explore without creating an account or telling us your story.</p>
+  <div class="cards">
+    <article class="card"><div class="emoji">🌿</div><h3>I need a moment for myself</h3><p>Gentle audio, grounding exercises and small pauses for a busy day.</p><button onclick="showResources('calm')">Find a little calm →</button></article>
+    <article class="card"><div class="emoji">💛</div><h3>I want to understand how I feel</h3><p>Simple, judgement-free resources about emotions, stress and self-worth.</p><button onclick="showResources('feelings')">Explore feelings →</button></article>
+    <article class="card"><div class="emoji">🤝</div><h3>I think I want to talk to someone</h3><p>Learn about support options and decide what feels comfortable for you.</p><button onclick="document.querySelector('#support').scrollIntoView({behavior:'smooth'})">See support options →</button></article>
+  </div>
+  <div id="resourcePanel" class="panel">
+    <h3 id="resourceTitle">A small collection for you</h3><p id="resourceText" class="lead"></p>
+    <div class="choices"><button class="choice" onclick="this.classList.toggle('selected')">A 2-minute breathing pause</button><button class="choice" onclick="this.classList.toggle('selected')">A gentle journal prompt</button><button class="choice" onclick="this.classList.toggle('selected')">Understanding stress</button></div>
+    <p class="note">Take what feels useful and leave the rest. You can come back whenever you need a moment for yourself.</p>
+  </div>
+</section>
+<section class="wrap section" id="support">
+  <div class="soft">
+    <div class="eyebrow">When you feel ready</div><h2>Support, at your pace.</h2>
+    <p class="lead">You do not need to be in crisis to deserve support. You can take a first step without signing up. You are in control of what you share.</p>
+    <div class="path">
+      <div class="step"><b>1. Tell us what would help</b><span class="note">Choose a broad area. You can skip anything you do not want to answer.</span></div>
+      <div class="step"><b>2. See possible next steps</b><span class="note">Explore self-help resources or learn about speaking with a trained professional.</span></div>
+      <div class="step"><b>3. Choose whether to connect</b><span class="note">Contact details should only be requested if you choose a referral or follow-up, with a clear explanation and consent.</span></div>
+    </div>
+    <div class="actions"><button class="btn" onclick="openCheckin()">Begin a gentle check-in</button></div>
+    <p class="note">You can pause or leave at any point. You are always in control of what you choose to share.</p>
+    <div id="checkin" class="panel">
+      <h3>What has been on your mind lately?</h3>
+      <p class="note">There is no right or wrong answer. Choose what feels closest, or skip this step.</p>
+      <div class="choices" id="checkChoices">
+        <button class="choice" onclick="this.classList.toggle('selected')">Stress or feeling overwhelmed</button>
+        <button class="choice" onclick="this.classList.toggle('selected')">Relationships or family</button>
+        <button class="choice" onclick="this.classList.toggle('selected')">Confidence or self-worth</button>
+        <button class="choice" onclick="this.classList.toggle('selected')">Safety or something that happened</button>
+        <button class="choice" onclick="this.classList.toggle('selected')">I’m not sure yet</button>
+      </div>
+      <button class="btn" onclick="showNext()">Continue</button>
+      <div id="nextStep" class="panel"><h3>You can take this one step at a time.</h3><p class="lead">You could explore something that may help, speak with someone you trust, or consider talking with a trained professional. You do not have to decide right now.</p><p class="note">If you are in immediate danger, contact local emergency services or a trusted person who can help you reach safety. In India, emergency response number 112 is available.</p></div>
+    </div>
+  </div>
+</section>
+<section class="wrap section" id="about">
+  <div class="eyebrow">Why SAATHI</div><h2>Help should feel easier to reach.</h2>
+  <p class="lead">Many women and girls carry difficult things quietly. Stigma, judgement, privacy concerns, limited mobility and not knowing where to turn can make asking for help feel out of reach. SAATHI meets them in a familiar digital space—with useful everyday content first, and a gentle path to human support when they want it.</p>
+</section>
+</main>
+<footer class="wrap footer"><strong>SAATHI</strong> · A space to feel heard. A pathway to feel supported.<br><br><span>You deserve care, understanding and support — at your own pace.</span></footer>
+<script>
+function showResources(type){const p=document.getElementById('resourcePanel');p.classList.add('active');document.getElementById('resourceTitle').textContent=type==='calm'?'A softer moment, just for you':'A little space to understand what you feel';document.getElementById('resourceText').textContent=type==='calm'?'Choose a small pause. There is no task to complete and no pressure to feel better immediately.':'You do not need the perfect words. Start with what you notice, and take only what feels useful.';p.scrollIntoView({behavior:'smooth',block:'center'});}
+function openCheckin(){document.getElementById('checkin').classList.add('active');document.getElementById('checkin').scrollIntoView({behavior:'smooth',block:'center'});}
+function showNext(){document.getElementById('nextStep').classList.add('active');document.getElementById('nextStep').scrollIntoView({behavior:'smooth',block:'center'});}
+</script>
+</body></html>
