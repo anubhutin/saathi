@@ -104,7 +104,7 @@ def _header(root, active):
   <div class="wrap site-header__inner">
     <a class="logo" href="{root}index.html" aria-label="SAATHI home">{LOGO_SVG}<span class="logo__word">saathi</span><span class="logo__hi" lang="hi">साथी</span></a>
     <nav class="site-nav" id="site-nav" aria-label="Main">
-      <ul>{links}</ul>
+      <ul>{links}<li class="nav-credit"><a href="http://safalsolutions.co.in/" target="_blank" rel="noopener"><span data-i18n="footer.credit">Website by</span> Safal Solutions</a></li></ul>
     </nav>
     <div class="site-header__tools">
       <label class="lang-select"><span class="visually-hidden" data-i18n="lang.label">Language</span>

@@ -381,3 +381,10 @@ details.sp-more[open] summary { margin-bottom: 1rem; }
 /* Footer credit */
 .site-footer__base .credit-link { color: #EEF1E8; text-decoration: underline; text-decoration-color: rgba(238,241,232,.45); text-underline-offset: .2em; }
 .site-footer__base .credit-link:hover { text-decoration-color: currentColor; }
+
+/* Credit link inside the hamburger menu only */
+.site-nav .nav-credit { display: none; }
+@media (max-width: 960px) {
+  .site-nav .nav-credit { display: block; margin-top: .5rem; }
+  .site-nav .nav-credit a { font-size: var(--step--1); color: var(--muted); border-bottom: 0; text-decoration: underline; text-decoration-color: var(--line); text-underline-offset: .2em; }
+}
