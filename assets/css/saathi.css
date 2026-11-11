@@ -99,7 +99,7 @@ p { margin: 0 0 1em; max-width: 68ch; }
 .nav-toggle { display: none; }
 .lang-banner { background: var(--sage-soft); color: var(--forest); font-size: var(--step--1); text-align: center; padding: .45rem var(--gutter); }
 
-@media (max-width: 1100px) {
+@media (max-width: 960px) {
   .site-nav { position: fixed; inset: 4.25rem 0 auto 0; background: var(--paper); border-bottom: 1px solid var(--line); padding: .75rem var(--gutter) 1.25rem; display: none; margin: 0; box-shadow: 0 18px 30px -20px rgba(30,58,43,.35); }
   .site-nav.is-open { display: block; }
   .site-nav ul { flex-direction: column; }
@@ -385,7 +385,7 @@ details.sp-more[open] summary { margin-bottom: 1rem; }
 /* Credit link inside the hamburger menu only */
 .site-nav .nav-credit__by { display: none; }
 .site-nav .nav-credit a { white-space: nowrap; }
-@media (max-width: 1100px) {
+@media (max-width: 960px) {
   .site-nav .nav-credit { margin-top: .5rem; }
   .site-nav .nav-credit__by { display: inline; }
   .site-nav .nav-credit a { font-size: var(--step--1); color: var(--muted); border-bottom: 0; text-decoration: underline; text-decoration-color: var(--line); text-underline-offset: .2em; }
@@ -396,3 +396,12 @@ details.sp-more[open] summary { margin-bottom: 1rem; }
 .site-nav a { white-space: nowrap; padding-inline: .6rem; }
 .btn--help { white-space: nowrap; }
 @media (max-width: 1240px) { .logo__hi { display: none; } }
+
+/* Compact full menu row between phone and wide desktop */
+@media (min-width: 961px) and (max-width: 1240px) {
+  .site-header__inner { gap: .75rem; }
+  .site-nav a { font-size: var(--step--1); padding-inline: .45rem; }
+  .site-header__tools { gap: .4rem; }
+  .lang-select select { padding-right: 1.6rem; }
+  .btn--help { padding: .45rem .75rem; }
+}
