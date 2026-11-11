@@ -44,7 +44,8 @@ window.SAATHI_STRINGS = {
   "start.lede": "হয়তো আপনি একটু শান্ত সময় চান। হয়তো কোনো কথা মনে ঘুরছে। অ্যাকাউন্ট না খুলে, নিজের কথা না বলেই আপনি সব দেখতে পারেন।",
   "start.collection": "আপনার জন্য ছোট্ট একটা সংগ্রহ",
   "start.close": "যা কাজে লাগে নিন, বাকিটা থাক। নিজের জন্য একটু সময় দরকার হলে যখন খুশি ফিরে আসুন।",
-  "footer.emergency": "ভারতের জরুরি নম্বর, যেকোনো ফোন থেকে বিনামূল্যে"
+  "footer.emergency": "ভারতের জরুরি নম্বর, যেকোনো ফোন থেকে বিনামূল্যে",
+  "footer.credit": "ওয়েবসাইট:"
  },
  "en": {
   "_meta": {
@@ -82,7 +83,8 @@ window.SAATHI_STRINGS = {
   "start.lede": "Maybe you want a quiet moment. Maybe something has been on your mind. You can explore without creating an account or telling us your story.",
   "start.collection": "A small collection for you",
   "start.close": "Take what feels useful and leave the rest. You can come back whenever you need a moment for yourself.",
-  "footer.emergency": "Emergency numbers in India, free from any phone"
+  "footer.emergency": "Emergency numbers in India, free from any phone",
+  "footer.credit": "Website by"
  },
  "hi": {
   "_meta": {
@@ -121,7 +123,8 @@ window.SAATHI_STRINGS = {
   "start.lede": "हो सकता है आपको बस थोड़ा सुकून चाहिए। हो सकता है कोई बात मन में चल रही हो। बिना अकाउंट बनाए और बिना अपनी कहानी बताए आप यहाँ सब कुछ देख सकती हैं।",
   "start.collection": "आपके लिए कुछ चुनी हुई चीज़ें",
   "start.close": "जो काम का लगे वह ले लीजिए, बाकी छोड़ दीजिए। जब भी अपने लिए एक पल चाहिए, आप वापस आ सकती हैं।",
-  "footer.emergency": "भारत में आपातकालीन नंबर, किसी भी फ़ोन से मुफ़्त"
+  "footer.emergency": "भारत में आपातकालीन नंबर, किसी भी फ़ोन से मुफ़्त",
+  "footer.credit": "वेबसाइट:"
  },
  "mai": {
   "_meta": {
